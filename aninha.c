@@ -27,7 +27,7 @@ if (idade <= 18 || idade >=60)
     }
 
 } else {
-    printf("Você não  tem direito aos descontos devido sua idade\n");
+    printf("Você não tem direito aos descontos devido sua idade\n");
 }
 
 
