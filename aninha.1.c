@@ -13,13 +13,21 @@ int main(){
     scanf("%d", &idade);
     printf("digite sua renda mensal: ");
     scanf("%f", &renda);
-    printf("Digite o números de dependnted: ");
+    printf("Digite o números de dependentes: ");
     scanf("%d", &dependentes);
 
     if(idade >= 18 && idade < 65){
+       if (renda < 3000){
+        if(dependentes >2)
+        {
+          printf("Você atente a todos os critérios\n");
+        } else {
+          printf("Você nao atende ao dependente\n");
+        }
 
-      if (renda < 3000){
-        
+      }else{
+        printf("Voçê não atente ao critério renda\n ");
+
       }
         
     } else{
